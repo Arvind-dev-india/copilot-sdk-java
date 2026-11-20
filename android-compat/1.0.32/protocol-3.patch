@@ -1,0 +1,30 @@
+diff --git a/com/github/copilot/CopilotClient.java b/com/github/copilot/CopilotClient.java
+--- a/com/github/copilot/CopilotClient.java
++++ b/com/github/copilot/CopilotClient.java
+@@ -941,7 +941,7 @@
+         }
+     }
+ 
+-    private static final int MIN_PROTOCOL_VERSION = 2;
++    private static final int MIN_PROTOCOL_VERSION = 3;
+     private static final int METHOD_NOT_FOUND_ERROR_CODE = -32601;
+ 
+     private void verifyProtocolVersion(Connection connection) throws Exception {
+@@ -1015,11 +1015,16 @@
+                     + "Please update your server to ensure compatibility.");
+         }
+ 
+-        if (serverVersion < MIN_PROTOCOL_VERSION || serverVersion > expectedVersion) {
++        if (serverVersion < MIN_PROTOCOL_VERSION) {
+             throw new RuntimeException("SDK protocol version mismatch: SDK supports versions " + MIN_PROTOCOL_VERSION
+                     + "-" + expectedVersion + ", but server reports version " + serverVersion + ". "
+                     + "Please update your SDK or server to ensure compatibility.");
+         }
++        if (serverVersion > expectedVersion) {
++            LOG.log(Level.INFO,
++                    "Server protocol version {0} is newer than SDK protocol {1}; continuing with protocol {1} compatibility.",
++                    new Object[]{serverVersion, expectedVersion});
++        }
+     }
+ 
+     private static boolean isUnsupportedConnectMethod(JsonRpcException ex) {

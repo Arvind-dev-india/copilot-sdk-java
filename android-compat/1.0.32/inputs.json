@@ -1,0 +1,47 @@
+[
+  {
+    "file": "copilot-sdk-java-1.0.32.jar",
+    "path": "com/github/copilot-sdk-java/1.0.32/copilot-sdk-java-1.0.32.jar",
+    "sha256": "0932a251c2c6bc9d1020b0bb7bcca32fe0b056950e28234a15c80b029c331c42"
+  },
+  {
+    "file": "copilot-sdk-java-1.0.32-sources.jar",
+    "path": "com/github/copilot-sdk-java/1.0.32/copilot-sdk-java-1.0.32-sources.jar",
+    "sha256": "4d3fbd4bd9fb101ecee7560a5a4a8bb1148942d4231e448b365656844efc231d"
+  },
+  {
+    "file": "copilot-sdk-java-1.0.32.pom",
+    "path": "com/github/copilot-sdk-java/1.0.32/copilot-sdk-java-1.0.32.pom",
+    "sha256": "12bf4b37d736d8bcc9252f31e40dcbf7f04a2bb5a1140d1dfa3e153670c77028"
+  },
+  {
+    "file": "jackson-core-2.23.0.jar",
+    "path": "com/fasterxml/jackson/core/jackson-core/2.23.0/jackson-core-2.23.0.jar",
+    "sha256": "449798beb4c4ec26de9cc25b39ca2198036883fb905ca968cbef7136d19a25d9"
+  },
+  {
+    "file": "jackson-databind-2.23.0.jar",
+    "path": "com/fasterxml/jackson/core/jackson-databind/2.23.0/jackson-databind-2.23.0.jar",
+    "sha256": "abd1edd2736c764da03fe6cb7a9de70d48dd0a198aed131604c564bff62f9cc1"
+  },
+  {
+    "file": "jackson-annotations-2.23.jar",
+    "path": "com/fasterxml/jackson/core/jackson-annotations/2.23/jackson-annotations-2.23.jar",
+    "sha256": "e5b60c3088e0887b290ff9226394354589a1dad583743944b7f5538661056b4c"
+  },
+  {
+    "file": "jackson-datatype-jsr310-2.23.0.jar",
+    "path": "com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.23.0/jackson-datatype-jsr310-2.23.0.jar",
+    "sha256": "f348f4de49644afa0ccbff6b018709a5f0f1468c76852e4217051890a0b8528c"
+  },
+  {
+    "file": "jspecify-1.0.1.jar",
+    "path": "org/jspecify/jspecify/1.0.1/jspecify-1.0.1.jar",
+    "sha256": "070d75f261fe4c5b8202508366715f7f2d4660f88c8ef7e6d3575e48c9683b66"
+  },
+  {
+    "file": "jna-5.19.1.jar",
+    "path": "net/java/dev/jna/jna/5.19.1/jna-5.19.1.jar",
+    "sha256": "4fb141dd8ef6b0585ffceea4bc49602fbc6312fa977e2c488794ea3e6aafecae"
+  }
+]
